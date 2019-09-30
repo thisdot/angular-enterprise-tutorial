@@ -21,9 +21,15 @@
             "polyfills": "apps/employees/src/polyfills.ts",
             "tsConfig": "apps/employees/tsconfig.app.json",
             "aot": false,
+
             "assets": [
               "apps/employees/src/favicon.ico",
-              "apps/employees/src/assets"
+              "apps/employees/src/assets",
+              {
+                "glob": "**/*",
+                "input": "./libs/ui/src/lib/shared-assets",
+                "output": "./assets"
+              }
             ],
             "styles": ["apps/employees/src/styles.scss"],
             "scripts": []
