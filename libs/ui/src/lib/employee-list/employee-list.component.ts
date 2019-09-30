@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Employee } from '@thisdot/data';
+import { Employee } from '@thisdotx/employee';
 
 @Component({
   selector: 'thisdotx-employee-list',
