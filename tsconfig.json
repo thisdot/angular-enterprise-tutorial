@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@thisdotx/employee": ["libs/employee/src/index.ts"]
+      "@thisdotx/employee": ["libs/employee/src/index.ts"],
+      "@thisdotx/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
