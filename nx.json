@@ -13,6 +13,9 @@
     },
     "employees": {
       "tags": []
+    },
+    "employee": {
+      "tags": []
     }
   }
 }
